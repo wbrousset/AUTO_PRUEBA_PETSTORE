@@ -1,0 +1,2944 @@
+21:15:38.581 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:15:39.428 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:15:39.851 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:15:40.401 [main] DEBUG com.intuit.karate - response time in milliseconds: 548
+1 < 200
+1 < Date: Mon, 26 Dec 2022 02:15:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 980
+1 < X-Ratelimit-Reset: 1668804761
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: REVALIDATED
+1 < Server-Timing: cf-q-config;dur=6.9999987317715e-06
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8EzzQSSmiUtIo%2BwOfThPIS9VsYh%2FVydF3NZ%2B01jxWyXDP0vQA25VIxi%2FXehUtf0vSa9nuSy5eZHoHlAI%2FYaYBsOUPrPUOs88mjVE%2FIZaktEwlXcCHUoIl%2BSxPVGmQ6q2ACG3Jm0cLn2YHZv94%2F53"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77f64f5b4e0b6d65-LIM
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+21:15:40.439 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:15:40.718 [main] DEBUG com.intuit.karate - response time in milliseconds: 278
+2 < 200
+2 < Date: Mon, 26 Dec 2022 02:15:40 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1672020967
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: MISS
+2 < Server-Timing: cf-q-config;dur=5.9999983932357e-06
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SWKvbQQjgxirQVnhIJcXa6iQMy7VL1oFXxM2wNcbN2I1Jz%2BeZOsxl%2FaEZW9cUB7IukuHYlSxms3pZaQd9hR3bN9zLYNhVQ7G0R%2B1QjkLX8Z77g6%2BDGiivJDPO7EjJqBoqdq9eMSO4efmN%2FtHRQWs"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 77f64f5deef56d65-LIM
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+21:15:40.729 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:15:40.771 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+21:15:41.087 [main] DEBUG com.intuit.karate - response time in milliseconds: 316
+1 < 201
+1 < Date: Mon, 26 Dec 2022 02:15:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1672020967
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server-Timing: cf-q-config;dur=5.9999983932357e-06
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UmY2dbI%2BQohtKqWMwz1X8H8WRtt16sFziS559MSBGPfMjQHKTubwnk6zuyf1FhQuefD20LQBKeQKuEaRtqKVsMiHhuOdLxhpu8jsEzWhIRJnBLQkLvsKVmsb5ZyUDq1vTVfjEEtPHH%2B8%2FmNSweBz"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77f64f603faa6d65-LIM
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+21:15:41.090 [main] INFO  com.intuit.karate - [print] created id is:  11 
+21:37:14.029 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:37:14.843 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:15.406 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:37:15.720 [main] DEBUG com.intuit.karate - response time in milliseconds: 311
+1 < 200
+1 < Date: Mon, 26 Dec 2022 02:37:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 980
+1 < X-Ratelimit-Reset: 1668804761
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 1295
+1 < Server-Timing: cf-q-config;dur=5.0000016926788e-06
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d69rCybpXinH%2Ba3hl4swDgRb8T%2FpZnWaaNzxI8ngiS%2BVdz4CLYsI3Ef2T5FqqotA12IvjMxyqz9m2O532gCmwUWiaLFcoJ3OoGFFV1jH8H%2BH%2BXI97lhLFdZeeaj1iB4y3wAeP9RkBE7nI6dV0b1G"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77f66efccb276d65-LIM
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+21:37:15.759 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:37:15.872 [main] DEBUG com.intuit.karate - response time in milliseconds: 113
+2 < 200
+2 < Date: Mon, 26 Dec 2022 02:37:15 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1672020967
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 1295
+2 < Server-Timing: cf-q-config;dur=4.000001354143e-06
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rjIzSsgQnAcwg%2BIbi%2Fx3RiS2WfBRe4HrkEbGJp31jeFfNGuFwDLN2f%2BFjCfNCmoCSkIEkMTcH2WsUgnImLSNHuafvJHJ0C43Dqm%2BJBDeJbrUYaZwExRQrf3zHSCgoPhSZPLcfaqgNd8d9MhF8nsr"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 77f66efddb7b6d65-LIM
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+21:37:15.883 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:15.924 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+21:37:16.207 [main] DEBUG com.intuit.karate - response time in milliseconds: 283
+1 < 201
+1 < Date: Mon, 26 Dec 2022 02:37:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1672022287
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server-Timing: cf-q-config;dur=5.9999983932357e-06
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zoi4MZHowySZc6GsStut6SmM125J18HBNHfujT59NkNqL0ULwgkJU03EHAndB4iw0X3iXr3sBw2o4gZGvRoTDVxfwGyfJYABv%2FYp3duwX7wN%2FpvnjVvqSUAgmy2j1f2TBHRnkSTeTIr88oYU91GT"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77f66efebbaa6d65-LIM
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+21:37:16.210 [main] INFO  com.intuit.karate - [print] created id is:  11 
+22:02:08.220 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:02:09.068 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:09.753 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101012","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:02:10.458 [main] DEBUG com.intuit.karate - response time in milliseconds: 703
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:02:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101012,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:02:10.464 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101012 
+22:02:38.461 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:02:39.208 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:39.838 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101012","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:02:40.446 [main] DEBUG com.intuit.karate - response time in milliseconds: 607
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:02:40 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101012,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:02:40.451 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101012 
+22:07:54.422 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:07:55.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:55.857 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:56.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 257
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:07:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 980
+1 < X-Ratelimit-Reset: 1668804761
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 3136
+1 < Server-Timing: cf-q-config;dur=5.0000016926788e-06
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ygZMvtQ3sgE6SzBphKb0y6oklUj72tWhehf%2BxQtuVr60wlRMXZfRH59UyZsRusd3qKEmTE%2FS8jG%2BLBFESN2qiH1hu4oLy%2BuRIftKVmhDJA7JtW2gXB5GRW2Rv5%2Fce5I9ARHb4A%2FvZc3l25MhSgu2"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77f69beb6a2a6d61-LIM
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+22:07:56.161 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:07:56.261 [main] DEBUG com.intuit.karate - response time in milliseconds: 100
+2 < 200
+2 < Date: Mon, 26 Dec 2022 03:07:56 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1672020967
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 3136
+2 < Server-Timing: cf-q-config;dur=5.0000016926788e-06
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XQX4vm88hrdYSn5gNvkolkFd5r%2FLQwH52Cj4Hxv4w2%2BDam6XPZ2QMBrjpHazm45gsX2Pj48e0G8%2BM%2BkwbXDglIcSj4ab%2B9cmCBvQ6eAiK1s3gUUjRqk2CPcZzGqIwTX7MYT5Bqhfs9V2bH3QRGhE"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 77f69bec6a816d61-LIM
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+22:07:56.274 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:56.321 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+22:07:56.668 [main] DEBUG com.intuit.karate - response time in milliseconds: 345
+1 < 201
+1 < Date: Mon, 26 Dec 2022 03:07:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1672024087
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server-Timing: cf-q-config;dur=4.9999980547e-06
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qM0eefWGEfX8a%2BKVFXbk%2BitHnhY9XCkBqVy0j7MExMuE3nbxhViXiepUeHLfy6AYYJDqO3uDtsTySR4ZgzaS11jjn7SADtd9bmjeKUnJYMj2I24HZUqSvTC2%2BYw9x6sMw4Zj8AM9XW98HyEMtAPz"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77f69bed6b2e6d61-LIM
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+22:07:56.670 [main] INFO  com.intuit.karate - [print] created id is:  11 
+22:08:07.936 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:08:08.736 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:09.321 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:09.548 [main] DEBUG com.intuit.karate - response time in milliseconds: 225
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:08:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 980
+1 < X-Ratelimit-Reset: 1668804761
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 3149
+1 < Server-Timing: cf-q-config;dur=5.0000016926788e-06
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gjcXJ5OCjGy6PRpnuOOhSBcEcK5402DBniaC%2BnI8Durj%2F5O8VmWPRJsqbmwdg4DFFNh7EtnaaKnGm9naIL0O4N3T%2BOJ0fFmnxhth8e9HLP0x14yrHxxBGSCi4Lu3bjCRtB%2BFjdA1%2B1HcO10bP2KP"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77f69c3f5fc46d61-LIM
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+22:08:09.593 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:08:09.702 [main] DEBUG com.intuit.karate - response time in milliseconds: 108
+2 < 200
+2 < Date: Mon, 26 Dec 2022 03:08:09 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1672020967
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 3149
+2 < Server-Timing: cf-q-config;dur=6.0000020312145e-06
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FPMfcL5qpBVG02%2Fo%2FgtqOcer02vyvCmTl1WfQDIGjF7sHv9JI%2BIq8wtFtHNtoQykZos48UCqDRA2gC%2B1Z3ZUkexDZZUs8UA1pahz85cNNeYutDhMuOsfmdJbC5lfY%2BfC3U2R1fQpFaa%2BmI2gPKuE"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 77f69c406c816d65-LIM
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+22:11:25.938 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:11:26.736 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:27.391 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101012","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:11:28.089 [main] DEBUG com.intuit.karate - response time in milliseconds: 697
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:11:28 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101012,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:11:28.095 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101012 
+22:11:28.109 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:28.113 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:11:28.620 [main] DEBUG com.intuit.karate - response time in milliseconds: 507
+1 < 405
+1 < Date: Mon, 26 Dec 2022 03:11:28 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 102
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+
+22:11:28.628 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:40
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 507, url: https://petstore.swagger.io/v2/pet, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+classpath:examples/users/petstore.feature:40
+22:11:50.565 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:11:51.359 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:51.993 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101013","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:11:52.575 [main] DEBUG com.intuit.karate - response time in milliseconds: 582
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:11:52 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101013,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:11:52.581 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101013 
+22:11:52.594 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:52.597 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:11:53.092 [main] DEBUG com.intuit.karate - response time in milliseconds: 495
+1 < 405
+1 < Date: Mon, 26 Dec 2022 03:11:53 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 102
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+
+22:11:53.100 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:40
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 495, url: https://petstore.swagger.io/v2/pet, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+classpath:examples/users/petstore.feature:40
+22:12:14.206 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:12:14.966 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:15.581 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101013","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:12:16.176 [main] DEBUG com.intuit.karate - response time in milliseconds: 594
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:12:16 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101013,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:12:16.182 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101013 
+22:13:37.193 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:13:37.956 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:38.573 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101013","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:13:39.242 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:13:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101013,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:13:39.248 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101013 
+22:13:39.249 [main] INFO  com.intuit.karate - [print] {
+  "id": 101013,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "pulgita1",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:15:48.701 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:15:49.532 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:15:50.165 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101013","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:15:50.831 [main] DEBUG com.intuit.karate - response time in milliseconds: 665
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:15:50 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101013,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:15:50.837 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101013 
+22:15:50.839 [main] INFO  com.intuit.karate - [print] {
+  "id": 101013,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "pulgita1",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:15:50.851 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:15:50.854 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:15:51.333 [main] DEBUG com.intuit.karate - response time in milliseconds: 479
+1 < 405
+1 < Date: Mon, 26 Dec 2022 03:15:51 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 102
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+
+22:15:51.341 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:40
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 479, url: https://petstore.swagger.io/v2/pet, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+classpath:examples/users/petstore.feature:40
+22:17:42.529 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:17:43.356 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:17:43.941 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:17:44.823 [main] DEBUG com.intuit.karate - response time in milliseconds: 880
+1 < 415
+1 < Date: Mon, 26 Dec 2022 03:17:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":415,"type":"unknown","message":"com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.Pet, and Java type class io.swagger.sample.model.Pet, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"}
+
+22:17:44.828 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:32
+Then status 200
+status code was: 415, expected: 200, response time in milliseconds: 880, url: https://petstore.swagger.io/v2/pet, response: 
+{"code":415,"type":"unknown","message":"com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.Pet, and Java type class io.swagger.sample.model.Pet, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"}
+classpath:examples/users/petstore.feature:32
+22:18:08.581 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:18:09.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:18:09.941 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:18:10.533 [main] DEBUG com.intuit.karate - response time in milliseconds: 590
+1 < 415
+1 < Date: Mon, 26 Dec 2022 03:18:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":415,"type":"unknown","message":"com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.Pet, and Java type class io.swagger.sample.model.Pet, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"}
+
+22:18:10.538 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:32
+Then status 200
+status code was: 415, expected: 200, response time in milliseconds: 590, url: https://petstore.swagger.io/v2/pet, response: 
+{"code":415,"type":"unknown","message":"com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.Pet, and Java type class io.swagger.sample.model.Pet, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"}
+classpath:examples/users/petstore.feature:32
+22:18:20.310 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:18:21.089 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:18:21.722 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101013","category":{"id":"0","name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:18:22.316 [main] DEBUG com.intuit.karate - response time in milliseconds: 592
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:18:22 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101013,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:18:22.322 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101013 
+22:18:22.324 [main] INFO  com.intuit.karate - [print] {
+  "id": 101013,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "pulgita1",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:19:29.567 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:19:30.382 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:30.967 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/pet/101013
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:19:31.629 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
+1 < 404
+1 < Date: Mon, 26 Dec 2022 03:19:31 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 179
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/pet/pet/101013</message><type>unknown</type></apiResponse>
+
+22:19:31.639 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:13
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 660, url: https://petstore.swagger.io/v2/pet/pet/101013, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/pet/pet/101013</message><type>unknown</type></apiResponse>
+classpath:examples/users/petstore.feature:13
+22:21:37.179 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:21:38.005 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:21:38.611 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/pet/101013
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:21:39.326 [main] DEBUG com.intuit.karate - response time in milliseconds: 713
+1 < 404
+1 < Date: Mon, 26 Dec 2022 03:21:39 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 179
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/pet/pet/101013</message><type>unknown</type></apiResponse>
+
+22:21:39.337 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:13
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 713, url: https://petstore.swagger.io/v2/pet/pet/101013, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/pet/pet/101013</message><type>unknown</type></apiResponse>
+classpath:examples/users/petstore.feature:13
+22:22:10.194 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:22:10.956 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:11.518 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101013
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:22:12.118 [main] DEBUG com.intuit.karate - response time in milliseconds: 598
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:22:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101013,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:22:12.165 [main] ERROR com.intuit.karate - classpath:examples/users/petstore.feature:14
+And match $..id contains '101013'
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - 101013 (LIST:STRING)
+  [101013,0,0]
+  '101013'
+
+    $[2] | data types don't match (NUMBER:STRING)
+    0
+    '101013'
+
+    $[1] | data types don't match (NUMBER:STRING)
+    0
+    '101013'
+
+    $[0] | data types don't match (NUMBER:STRING)
+    101013
+    '101013'
+
+classpath:examples/users/petstore.feature:14
+22:22:39.032 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:22:39.838 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:40.430 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101013
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:22:41.138 [main] DEBUG com.intuit.karate - response time in milliseconds: 706
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:22:41 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101013,"category":{"id":0,"name":"string"},"name":"pulgita1","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:23:30.375 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:31.150 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:23:31.803 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101014","category":{"id":"0","name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:23:32.394 [main] DEBUG com.intuit.karate - response time in milliseconds: 590
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:23:32 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:23:32.400 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101014 
+22:23:32.403 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "solecita",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:23:32.414 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:23:32.417 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101014
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:23:32.905 [main] DEBUG com.intuit.karate - response time in milliseconds: 488
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:23:32 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:24:12.409 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:24:13.179 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:24:13.812 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101014","category":{"id":"0","name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:24:14.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 695
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:24:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:24:14.514 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101014 
+22:24:14.515 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "solecita",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:24:14.527 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:24:14.530 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101014
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:24:15.003 [main] DEBUG com.intuit.karate - response time in milliseconds: 473
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:24:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:24:15.005 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "solecita",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:29:58.042 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:29:58.812 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:29:59.466 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 153
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101014","category":{"id":"0","name":"string"},"name":"chiquitina","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:30:00.151 [main] DEBUG com.intuit.karate - response time in milliseconds: 683
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:30:00 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"chiquitina","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:30:00.157 [main] INFO  com.intuit.karate - [print] mascota modificada con id:  101014 
+22:30:00.158 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "chiquitina",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:30:35.982 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:30:36.763 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:30:37.328 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101014
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:30:39.306 [main] DEBUG com.intuit.karate - response time in milliseconds: 1976
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:30:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"chiquitina","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:30:39.333 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "chiquitina",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:35:17.686 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:35:18.556 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:35:19.250 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101014","category":{"id":"0","name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:35:19.954 [main] DEBUG com.intuit.karate - response time in milliseconds: 703
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:35:19 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:35:19.961 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101014 
+22:35:19.963 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "solecita",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:35:19.975 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:35:19.979 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101014
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:35:20.479 [main] DEBUG com.intuit.karate - response time in milliseconds: 500
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:35:20 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"solecita","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:35:20.481 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "solecita",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+22:35:20.486 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:35:20.489 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 153
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101014","category":{"id":"0","name":"string"},"name":"chiquitina","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+22:35:20.967 [main] DEBUG com.intuit.karate - response time in milliseconds: 478
+1 < 200
+1 < Date: Mon, 26 Dec 2022 03:35:20 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"chiquitina","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+22:35:20.970 [main] INFO  com.intuit.karate - [print] mascota modificada con id:  101014 
+22:35:20.971 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "chiquitina",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:33:31.439 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:33:32.805 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:33:33.906 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 150
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101015","category":{"id":"0","name":"string"},"name":"lokillo","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:33:35.500 [main] DEBUG com.intuit.karate - response time in milliseconds: 1591
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:33:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101015,"category":{"id":0,"name":"string"},"name":"lokillo","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:33:35.508 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101015 
+23:33:35.511 [main] INFO  com.intuit.karate - [print] {
+  "id": 101015,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "lokillo",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:33:35.530 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:33:35.538 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101014
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:33:36.016 [main] DEBUG com.intuit.karate - response time in milliseconds: 477
+1 < 404
+1 < Date: Mon, 26 Dec 2022 04:33:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+23:33:36.018 [main] ERROR com.intuit.karate - classpath:petstore/petstore.feature:40
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 477, url: https://petstore.swagger.io/v2/pet/101014, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:petstore/petstore.feature:40
+23:33:36.035 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:33:36.039 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101014","category":{"id":"0","name":"string"},"name":"lucky","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:33:36.532 [main] DEBUG com.intuit.karate - response time in milliseconds: 493
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:33:36 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"lucky","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:33:36.537 [main] INFO  com.intuit.karate - [print] mascota modificada con id:  101014 
+23:33:36.538 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "lucky",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:34:07.623 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:34:09.056 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:34:10.141 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 150
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101015","category":{"id":"0","name":"string"},"name":"lokillo","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:34:10.804 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:34:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101015,"category":{"id":0,"name":"string"},"name":"lokillo","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:34:10.811 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101015 
+23:34:10.815 [main] INFO  com.intuit.karate - [print] {
+  "id": 101015,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "lokillo",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:34:10.832 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:34:10.838 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101015
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:34:11.320 [main] DEBUG com.intuit.karate - response time in milliseconds: 482
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:34:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101015,"category":{"id":0,"name":"string"},"name":"lokillo","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:34:11.324 [main] INFO  com.intuit.karate - [print] {
+  "id": 101015,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "lokillo",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:34:11.334 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:34:11.338 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101014","category":{"id":"0","name":"string"},"name":"lucky","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:34:11.848 [main] DEBUG com.intuit.karate - response time in milliseconds: 510
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:34:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101014,"category":{"id":0,"name":"string"},"name":"lucky","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:34:11.854 [main] INFO  com.intuit.karate - [print] mascota modificada con id:  101014 
+23:34:11.855 [main] INFO  com.intuit.karate - [print] {
+  "id": 101014,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "lucky",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:36:22.721 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:36:24.147 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:36:25.244 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 150
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101016","category":{"id":"0","name":"string"},"name":"ilusion","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:36:26.031 [main] DEBUG com.intuit.karate - response time in milliseconds: 785
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:36:26 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101016,"category":{"id":0,"name":"string"},"name":"ilusion","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:36:26.040 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101016 
+23:36:26.043 [main] INFO  com.intuit.karate - [print] {
+  "id": 101016,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "ilusion",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:36:26.064 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:36:26.068 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101016
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:36:26.639 [main] DEBUG com.intuit.karate - response time in milliseconds: 570
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:36:26 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101016,"category":{"id":0,"name":"string"},"name":"ilusion","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:36:26.653 [main] ERROR com.intuit.karate - classpath:petstore/petstore.feature:41
+* print 'mascota existente: ', id
+js failed:
+>>>>
+01: karate.log('[print]','mascota existente: ', id)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:petstore/petstore.feature:41
+23:36:26.669 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:36:26.673 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 150
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101016","category":{"id":"0","name":"string"},"name":"alegria","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:36:27.161 [main] DEBUG com.intuit.karate - response time in milliseconds: 486
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:36:27 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101016,"category":{"id":0,"name":"string"},"name":"alegria","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:36:27.165 [main] INFO  com.intuit.karate - [print] mascota modificada con id:  101016 
+23:36:27.166 [main] INFO  com.intuit.karate - [print] {
+  "id": 101016,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "alegria",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:37:44.587 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:37:46.000 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:37:47.104 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 150
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101017","category":{"id":"0","name":"string"},"name":"negrito","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:37:47.894 [main] DEBUG com.intuit.karate - response time in milliseconds: 787
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:37:47 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101017,"category":{"id":0,"name":"string"},"name":"negrito","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:37:47.901 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101017 
+23:37:47.905 [main] INFO  com.intuit.karate - [print] {
+  "id": 101017,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "negrito",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:37:47.925 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:37:47.930 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101017
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:48.408 [main] DEBUG com.intuit.karate - response time in milliseconds: 478
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:37:48 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101017,"category":{"id":0,"name":"string"},"name":"negrito","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:37:48.411 [main] INFO  com.intuit.karate - [print] mascota existente:  101017 
+23:37:48.412 [main] INFO  com.intuit.karate - [print] {
+  "id": 101017,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "negrito",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:37:48.421 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:37:48.426 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 149
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101017","category":{"id":"0","name":"string"},"name":"scooby","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:37:48.917 [main] DEBUG com.intuit.karate - response time in milliseconds: 490
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:37:48 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101017,"category":{"id":0,"name":"string"},"name":"scooby","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:37:48.920 [main] INFO  com.intuit.karate - [print] mascota modificada con id:  101017 
+23:37:48.920 [main] INFO  com.intuit.karate - [print] {
+  "id": 101017,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "scooby",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:46:09.164 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:46:10.437 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:46:11.441 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 150
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101017","category":{"id":"0","name":"string"},"name":"negrito","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:46:12.223 [main] DEBUG com.intuit.karate - response time in milliseconds: 780
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:46:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101017,"category":{"id":0,"name":"string"},"name":"negrito","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:46:12.231 [main] INFO  com.intuit.karate - [print] mascota creada con id:  101017 
+23:46:12.233 [main] INFO  com.intuit.karate - [print] {
+  "id": 101017,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "negrito",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:46:12.250 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:46:12.255 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/101017
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:46:12.737 [main] DEBUG com.intuit.karate - response time in milliseconds: 482
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:46:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101017,"category":{"id":0,"name":"string"},"name":"negrito","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:46:12.739 [main] INFO  com.intuit.karate - [print] mascota existente:  101017 
+23:46:12.740 [main] INFO  com.intuit.karate - [print] {
+  "id": 101017,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "negrito",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
+23:46:12.751 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:46:12.756 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 149
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+1 > Accept-Encoding: gzip,deflate
+{"id":"101017","category":{"id":"0","name":"string"},"name":"scooby","photoUrls":["string"],"tags":[{"id":"0","name":"string"}],"status":"available"}
+
+23:46:13.231 [main] DEBUG com.intuit.karate - response time in milliseconds: 475
+1 < 200
+1 < Date: Mon, 26 Dec 2022 04:46:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":101017,"category":{"id":0,"name":"string"},"name":"scooby","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+23:46:13.236 [main] INFO  com.intuit.karate - [print] mascota modificada con id:  101017 
+23:46:13.237 [main] INFO  com.intuit.karate - [print] {
+  "id": 101017,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "scooby",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+ 
